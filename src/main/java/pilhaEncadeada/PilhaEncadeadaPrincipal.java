@@ -58,7 +58,7 @@ public class PilhaEncadeadaPrincipal {
                 }
                 case 4:
                 {
-                    System.out.println("Sua pilha...");
+                    System.out.println("Sua pilha encadeada...");
                     stack.exibirElementos();
                     break;
                 }

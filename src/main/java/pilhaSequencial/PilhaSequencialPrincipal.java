@@ -58,7 +58,7 @@ public class PilhaSequencialPrincipal {
                 }
                 case 4:
                 {
-                    System.out.println("Sua pilha...");
+                    System.out.println("Sua pilha sequencial...");
                     stack.exibirElementos();
                     break;
                 }

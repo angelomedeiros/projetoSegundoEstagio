@@ -1,10 +1,10 @@
-package filaSequencial;
+package filaEncadeada;
 
 import java.util.Scanner;
 
-public class FilaSequencialPrincipal {
-    public FilaSequencialPrincipal () {
-        FilaSequencial queue = new FilaSequencial();
+public class FilaEncadeadaPrincipal {
+    public FilaEncadeadaPrincipal() {
+        FilaEncadeada queue = new FilaEncadeada();
 
         queue.inserir("Ana");
         queue.inserir("Bruno");
@@ -13,9 +13,12 @@ public class FilaSequencialPrincipal {
         queue.inserir("Eduardo");
         queue.exibirFila();
 
+
         queue.remover();
         queue.remover();
         queue.remover();
+
+        System.out.println("\n");
 
         queue.inserir("Fábio");
         queue.inserir("Gustavo");
@@ -54,7 +57,7 @@ public class FilaSequencialPrincipal {
                 {
                     String elementoDoInicioAntesDaRemocao = queue.elementoDoInicio();
                     queue.remover();
-//                    System.out.printf("O elemento \"%s\" foi removido da fila!\n", elementoDoInicioAntesDaRemocao);
+                    System.out.printf("O elemento \"%s\" foi removido da fila!\n", elementoDoInicioAntesDaRemocao);
                     break;
                 }
                 case 3:
@@ -64,7 +67,6 @@ public class FilaSequencialPrincipal {
                 }
                 case 4:
                 {
-                    System.out.println("Sua fila...");
                     queue.exibirFila();
                     break;
                 }

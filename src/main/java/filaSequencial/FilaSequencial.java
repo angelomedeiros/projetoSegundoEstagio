@@ -20,6 +20,7 @@ public class FilaSequencial {
 
         tamanho++;
         contatos[tamanho] = contato;
+        System.out.printf("Elemento \"%s\" inserido.\n", contato);
         return true;
     }
 
@@ -36,6 +37,8 @@ public class FilaSequencial {
 
          contatos[tamanho] = null;
          tamanho--;
+
+        System.out.printf("Elemento \"%s\" removido.\n", valor);
          return valor;
     }
 
@@ -52,6 +55,7 @@ public class FilaSequencial {
             return;
         }
 
+        System.out.println("\nSua fila sequencial...");
         for ( int i = 0 ; i <= tamanho ; i++) {
             System.out.printf("Posição %d: %s\n", i+1, contatos[i]);
         }

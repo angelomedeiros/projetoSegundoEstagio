@@ -50,7 +50,7 @@ public class PilhaSequencial {
     // Exibe os elementos da pilha
     public void exibirElementos () {
         for ( int i = 0; i <= topo; i++ ) {
-            System.out.printf( "pilhaEncadeada.Elemento %d : %s \n", i, elementos[i]);
+            System.out.printf( "Elemento %d : %s \n", i, elementos[i]);
         }
     }
 }
