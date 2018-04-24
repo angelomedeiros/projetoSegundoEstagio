@@ -7,3 +7,8 @@
 - No branch pilhaEncadeada contém o projeto com a implentação da pilha encadeada.
 - No branch filaSequencial contém o projeto com a implentação da fila sequencial.
 - No branch filaEncadeada contém o projeto com a implentação da fila encadeada.
+
+### Equipe
+
+- Angelo Medeiros;
+- Bartira Wanderley
