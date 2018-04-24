@@ -10,7 +10,8 @@ public class Principal {
             System.out.println("Você quer trabalhar com qual tipo de pilha?");
             System.out.println("(1) Pilha Sequencial.");
             System.out.println("(2) Pilha Encadeada.");
-            System.out.println("(3) Sair do programa.");
+            System.out.println("(3) Fila Sequencial.");
+            System.out.println("(4) Sair do programa.");
             System.out.print("Digite o número da opção: ");
             Scanner input = new Scanner(System.in);
             int opcaoPrincipal = input.nextInt();
@@ -24,6 +25,9 @@ public class Principal {
                     new PilhaEncadeadaPrincipal();
                     break;
                 case 3:
+                    new FilaSequencialPrincipal();
+                    break;
+                case 4:
                     sair = false;
                     break;
                 default:
