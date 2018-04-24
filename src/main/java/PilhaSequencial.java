@@ -46,13 +46,6 @@ public class PilhaSequencial {
     }
 
     // Exibe os elementos da pilha
-//    public void exibirElementos () {
-//        int i = 0;
-//        for ( String elemento : elementos ) {
-//            System.out.printf( "Elemento %d : %s \n", i, elemento);
-//            i++;
-//        }
-//    }
     public void exibirElementos () {
         for ( int i = 0; i <= topo; i++ ) {
             System.out.printf( "Elemento %d : %s \n", i, elementos[i]);
