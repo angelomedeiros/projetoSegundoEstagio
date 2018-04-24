@@ -39,7 +39,7 @@ public class PilhaEncadeada {
     public void exibirElementos () {
         Elemento auxiliar = topo;
         for ( int i = 0 ; i < n  ; i++ ) {
-            System.out.println(auxiliar.dado);
+            System.out.printf( "Elemento %d : %s \n", i, auxiliar.dado);
             auxiliar = auxiliar.prox;
         }
     }
