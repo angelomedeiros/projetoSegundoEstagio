@@ -1,8 +1,10 @@
+package pilhaSequencial;
+
 import java.util.Scanner;
 
-public class PilhaEncadeadaPrincipal {
-    public PilhaEncadeadaPrincipal () {
-        PilhaEncadeada stack = new PilhaEncadeada();
+public class PilhaSequencialPrincipal {
+    public PilhaSequencialPrincipal() {
+        PilhaSequencial stack = new PilhaSequencial();
 
         stack.push("Ana");
         stack.push("Bruno");
@@ -10,12 +12,13 @@ public class PilhaEncadeadaPrincipal {
         stack.push("Daniel");
         stack.exibirElementos();
 
-        System.out.println("A pilha tem " +  stack.quantidadeElementos() + " elementos\n\n");
+        System.out.println("A pilha tem " +  stack.quantidadeElementos() + " elementos\n");
 
         stack.pop();
         stack.exibirElementos();
 
-        System.out.println("A pilha tem " + stack.quantidadeElementos() + " elementos\n\n");
+        System.out.println("A pilha tem " + stack.quantidadeElementos() + " elementos\n");
+        System.out.println("=========================================");
 
         // Menu Secunadário
         boolean voltar = true;

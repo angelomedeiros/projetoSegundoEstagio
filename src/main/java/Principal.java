@@ -1,3 +1,7 @@
+import filaSequencial.FilaSequencialPrincipal;
+import pilhaEncadeada.PilhaEncadeadaPrincipal;
+import pilhaSequencial.PilhaSequencialPrincipal;
+
 import java.util.Scanner;
 
 public class Principal {

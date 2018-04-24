@@ -1,3 +1,5 @@
+package filaSequencial;
+
 import java.util.Scanner;
 
 public class FilaSequencialPrincipal {

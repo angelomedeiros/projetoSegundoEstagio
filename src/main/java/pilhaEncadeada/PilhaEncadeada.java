@@ -1,3 +1,5 @@
+package pilhaEncadeada;
+
 public class PilhaEncadeada {
     Elemento topo;
     int n = 0;
@@ -39,7 +41,7 @@ public class PilhaEncadeada {
     public void exibirElementos () {
         Elemento auxiliar = topo;
         for ( int i = 0 ; i < n  ; i++ ) {
-            System.out.printf( "Elemento %d : %s \n", i, auxiliar.dado);
+            System.out.printf( "pilhaEncadeada.Elemento %d : %s \n", i, auxiliar.dado);
             auxiliar = auxiliar.prox;
         }
     }

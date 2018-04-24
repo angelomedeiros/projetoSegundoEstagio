@@ -1,3 +1,5 @@
+package filaSequencial;
+
 public class FilaSequencial {
     String[] contatos = new String[100];
     int tamanho =  -1;
