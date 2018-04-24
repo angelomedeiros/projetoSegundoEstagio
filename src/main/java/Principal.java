@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        PilhaSequencial stack = new PilhaSequencial();
+//        PilhaSequencial stack = new PilhaSequencial();
+        PilhaEncadeada stack = new PilhaEncadeada();
         stack.push("Ana");
         stack.push("Bruno");
         stack.push("Carla");
@@ -41,8 +42,9 @@ public class Principal {
                 }
                 case 2:
                 {
+                    String elementoTopoAntesDaRemocao = stack.elementoTopo();
                     stack.pop();
-                    System.out.printf("O elemento \"%s\" foi removido da pilha!\n", stack.elementoTopo());
+                    System.out.printf("O elemento \"%s\" foi removido da pilha!\n", elementoTopoAntesDaRemocao);
                     break;
                 }
                 case 3:
